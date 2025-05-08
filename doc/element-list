@@ -1,0 +1,10 @@
+com.bank_card_management_system.springsecurity
+com.bank_card_management_system.springsecurity.config
+com.bank_card_management_system.springsecurity.controller
+com.bank_card_management_system.springsecurity.dto
+com.bank_card_management_system.springsecurity.entities
+com.bank_card_management_system.springsecurity.repository
+com.bank_card_management_system.springsecurity.services
+com.bank_card_management_system.springsecurity.services.impl
+com.bank_card_management_system.springsecurity.services.utils
+com.bank_card_management_system.springsecurity.services.validations

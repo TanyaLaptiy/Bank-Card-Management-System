@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet logicalFilePath="2025-05-08-2-insert-user"
+               id="2025-05-08-2-insert-user" author="seagull">
+        <insert tableName="user">
+            <column  name="email"  value="admin@gmail.com"/>
+            <column  name="first_name"  value="Admin"/>
+            <column  name="second_name"  value="Admin"/>
+<!--            "password":"admin"-->
+            <column  name="password"  value="$2a$10$hBr.E9gldA6PNueEY9R7GOwlivGs4MdQCVw989EuqIboOY.D3FsyW"/>
+            <column  name="role"  value="1"/>
+        </insert>
+
+        <insert tableName="user">
+            <column  name="email"  value="user2@gmail.com"/>
+            <column  name="first_name"  value="Pavel"/>
+            <column  name="second_name"  value="Sheriff"/>
+<!--            "password":"2"-->
+            <column  name="password"  value="$2a$10$oStIbg9044X.J/.2LT1l2eLxBu2qRbrJJ5e068o1Vc7FkSwt5fjV2"/>
+            <column  name="role"  value="0"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>
